@@ -448,7 +448,7 @@ pub struct EncodeOptions {
 
 #[derive(Clone, Debug, Default)]
 pub(crate) struct ResourceMapping {
-    map: im_rc::HashMap<ResourceId, (ComponentId, ResourceId)>,
+    map: im::HashMap<ResourceId, (ComponentId, ResourceId)>,
 }
 
 impl ResourceMapping {
